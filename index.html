@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#fce4ec">
+  <meta name="description" content="Šepetaj – barva se spreminja. Romantična stran za tebe.">
+  <title>Šepetaj mi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="main">
+    <div id="intro" class="intro">
+      <p class="tagline">Šepetaj mi …</p>
+      <p class="sub">Barva se bo spreminjala glede na tvoj glas.</p>
+      <button type="button" id="startBtn" class="btn">Začni</button>
+      <p id="error" class="error" aria-live="polite"></p>
+    </div>
+    <div id="active" class="active hidden">
+      <p class="tagline">Šepetaj mi …</p>
+      <span class="mic-icon" aria-hidden="true">♪</span>
+    </div>
+  </main>
+  <footer class="footer" aria-label="Podpis">♥ M</footer>
+  <script src="app.js"></script>
+</body>
+</html>

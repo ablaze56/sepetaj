@@ -1,0 +1,10 @@
+{
+  "name": "Šepetaj mi",
+  "short_name": "Šepetaj",
+  "description": "Šepetaj – barva se spreminja. Romantična stran z mikrofonom.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fce4ec",
+  "theme_color": "#fce4ec",
+  "lang": "sl"
+}
